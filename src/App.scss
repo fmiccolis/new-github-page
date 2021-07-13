@@ -1,3 +1,6 @@
+@import "styles/shared";
+@import "styles/colors";
+
 .App {
   text-align: center;
 }
@@ -25,7 +28,7 @@
 }
 
 .App-link {
-  color: #a1fb61;
+  color: $primary;
 }
 
 @keyframes App-logo-spin {
