@@ -3,6 +3,16 @@
 
 @import "~bootstrap/scss/bootstrap";
 
+#header {
+  background-color: #0b2e13;
+  width: 100%;
+  color: #fff;
+}
+
+#header div {
+  margin: .25rem;
+}
+
 .App {
   text-align: center;
 }

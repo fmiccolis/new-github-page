@@ -1,11 +1,9 @@
-import { Button } from 'react-bootstrap';
+import Navigation from "./Navigation";
 
-const Header = () => (
-    <nav>
-        <Button href="/">Home</Button>
-        <Button className="btn-danger" href="/projects">Progetti</Button>
-        <Button className="btn-secondary" href="/startups">Startups</Button>
-    </nav>
+const Header = (props) => (
+    <div id="header">
+        <Navigation />
+    </div>
 );
 
 export default Header;
